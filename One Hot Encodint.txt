@@ -1,0 +1,30 @@
+One-hot encoding
+
+	One-hot encoding converts the categorical data into numeric data by splitting the column into multiple columns. 
+
+	The numbers are replaced by 1s and 0s, depending on which column has what value.
+
+
+
+Label encoding
+
+	This approach is very simple and it involves converting each value in a column into a number.
+
+
+When to use One-Hot encoding and Label encoding?
+
+Label encoder is used when:
+
+		The number of categories is quite large as one-hot encoding can lead to high memory consumption.
+		When the order does not matter in categorical feature.
+
+
+One Hot encoder is used when:
+
+		When the order does not matter in categorical features
+		Categories in a feature are fewer.
+
+
+Importing label encoder
+
+	from sklearn.preprocessing import LabelEncoder

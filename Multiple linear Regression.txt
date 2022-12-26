@@ -1,0 +1,28 @@
+			MLR
+
+used to predict the outcome variable based on the value of two or more variables.
+
+MLR analyses how multiple independent variables are related to the dependent variable.
+
+
+y= 0+1 X1+2 X2+………+n Xn
+
+y = the predicted value of the dependent variable
+0 = the y-intercept (value of y when all other parameters are set to 0)
+1 X1 = the regression coefficient (1) of the first independent variable (X1) (a.k.a. the effect that increasing the value of the independent variable has on the predicted y value).
+n Xn = the regression coefficient of the last independent variable
+
+
+
+Multiple Linear Regression Assumptions:
+
+1.Observation Independence:
+	If two independent variables are too strongly correlated ,only one of the should
+be used in the regression model.
+
+2. Homogeneity of variance:
+	The magnitutde of the predictions error does not vary significantly across the values
+		of the independent variables.
+
+3. Linearity :
+	The best-fit line going through the data points is a straight line, not a curve or grouping

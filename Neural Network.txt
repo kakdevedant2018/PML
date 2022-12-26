@@ -1,0 +1,23 @@
+The neuron in each layer extract and combine features from the data, 
+and the neural network learns to map the features to the desired output
+ through a training process that adjust the weights of the connections between
+ the neurons.
+
+
+can be used in
+	classification 
+	regression
+	predicition
+
+architectures 
+	feedforward n/w
+	cnn
+	rnn
+
+
+
+
+Why it is called as BlackBox?
+
+ 	deep neural networks, we don't know how all the individual neurons work 
+	together to arrive at the final output.

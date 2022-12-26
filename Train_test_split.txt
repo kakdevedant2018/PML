@@ -1,0 +1,19 @@
+suppose we use different machine learning algorithms .
+evaluate the performance of each of them.
+
+	logistic regression: 91%
+	SVM: 56%
+	Random Forest: 97%
+
+
+The distribution of samples in X_train and test is not uniform.
+So whenever we'll execute these algorithms the score will get changed.
+
+On reexecution the samples in x_train,test y train test got changed 
+
+what accuracy we should show our stakeholders?
+
+performing cross validation will help 
+
+
+in k-fold cross validation 

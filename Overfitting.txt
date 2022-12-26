@@ -1,0 +1,13 @@
+is when a ml model begins to learn specifics of the training data instead of genralizing
+to new data.
+
+machine learning algorithm becomes too specific to the training data and doesn't 
+generalize well to new data.
+
+This can cause inaccurate predictions.
+
+In a nutshell overfitting happens when your model learn the noise in your data rahter than
+the actual patterns.
+	like outliers,missing values and extra features
+
+

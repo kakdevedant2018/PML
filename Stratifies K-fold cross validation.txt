@@ -1,0 +1,7 @@
+Stratifies K-Fold Cross validation is variation of k-fold cross validation 
+with an equal proportion of data in all folds. It solves the problem of 
+k-fold cross validation by returning stratified folds: each set contains approximately 
+the same percentage of samples of each target class.
+
+cross-validation solves the drawback of train_test_split. 
+

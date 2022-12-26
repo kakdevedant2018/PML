@@ -1,0 +1,50 @@
+Bias---
+
+
+	It is the  phenomenon that skews the result of an algorithm in favour or against
+		an idea .
+
+	High bias causes Underfitting of the model.
+	
+	Bias error comes up when an algorithm makes incorrect assumptions about the 
+	relationship between the features and target variable in the training data
+
+
+
+
+if data is performing good with model then we will say----- low Bias 
+ and if not we will  say -----High bias.
+
+
+
+
+Variance ---- 
+
+
+
+	Variance refers to the changes into the model jwhen using different portion 
+	of the training or test data.
+	
+Variance error is caused by over-sensitivity to minute fluctuations in the training data.
+	 Due to this, the model learns noise from the data.
+
+	High variance causes overfitting of the model.
+
+
+if good accuracy --- low variance
+ bad accuracy -----  high variance
+
+
+
+
+The model do mistakes while predicting becoz of numerous reasons.
+These mistakes are bias and variance.
+
+overfitting:- In this case the model tries to memorize all the data you give
+
+Underfitting:- It doesn't learn much from the data.
+
+
+
+
+ 

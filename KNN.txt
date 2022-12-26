@@ -1,0 +1,10 @@
+It can be used for bot
+-- classification problem 
+-- Regression problem
+
+Limitation of KNN :
+	1. Sensitive to outliers.
+	2. sensitive to missing values.
+	3. Accuracy depends on the quality of the data.
+	4. With large data, the prediction stage might be slow.
+

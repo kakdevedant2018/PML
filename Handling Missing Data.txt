@@ -1,0 +1,68 @@
+Questionn: what should be the order after getting the raw data
+
+
+	feature engineering
+	Feature Selection
+	Model Creation
+	Hyperparameter Tuning
+	Model deployement
+	Incremental Learning
+
+unprocessed data must be containing 
+	
+	Missing values
+	OUtliers
+	Unstructured Manner
+	Imbalanced data
+	Categorical Data
+
+
+Feature Engineering Steps:
+	1. Exploratory Data Analysis
+	2. Handling Missing Values
+	3. Handling Imbalanced Data
+	4. Handling Outliers
+	5. Scaling down the data ( Standardiation and Normalization)
+	6. Converting categorical data into Numerical data(One hot encoding or Label Encoding)
+	7. Feature Extraction.
+
+Questions:
+
+why is there missing data?
+
+
+Mean/Meadian/mode Imputation(taking charge)
+
+Mean:- It is the average value.
+
+Median :- It is the midjoint value.
+
+Mode:- most common value 
+
+
+
+
+
+Mean :- It is preferred if data is numeric and not skewed.
+
+Median :- data is numeric and skewed.
+
+Mode :- data is String(object) or numeric.
+
+
+
+Disadvantage:
+
+1. Change in the original variance.
+2.It impacts the correlation.
+
+
+
+
+---Below are some of the techniques of detecting outliers---
+
+	1.Boxplots
+	2.Z-score
+	3.Inter Quantile Range(IQR)
+
+

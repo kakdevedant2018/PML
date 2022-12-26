@@ -1,0 +1,4 @@
+pooling -- downscaling 
+
+	max-pool
+	mean-pool

@@ -1,0 +1,21 @@
+In K-fold coss-validation the dataset is shuffled in every iteration. So that inputs 
+are completely random and are not biased.
+
+
+advantages: 
+
+	it solves the problem of random accuracy means we can achieve a stable accuracy
+This prevents overfitting the training dataset.
+
+
+Note-If the dataset is large the cross-validation may not require as the chances of overfitting are less.
+
+
+
+disadvantages:
+
+1. In case data is imbalance (class A is in testing and class B is in Traning ) then it does not work.
+
+2. Traning time increases
+
+It does not contains each sample of each target class.

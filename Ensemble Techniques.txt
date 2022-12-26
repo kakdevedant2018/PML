@@ -1,0 +1,42 @@
+The pre-trained model you are using may only perform optimal fro some classses in 
+your dataset.
+
+similarly for other dataset some other model will work better
+
+so will combine the performance of all these models and provide a better solution
+
+this concept is called as
+
+
+The ensemble method is a machine learning technique that combines multiple
+ base models/weak learners to create an optimal predictive model. 
+
+
+
+Example 2
+When you go to amazon to buy anything, you check the ratings of that product which different customers give.
+ You buy product by checking the ratings of that product. Suppose the rating is 4.5 and is given by only one customer. 
+Then you don’t believe that rating as it’s the view of only one person. But if different people are given the ratings, 
+the overall rating turns out to be 4.5. Then you consider it more accurate.
+
+
+
+final output is taken considering the output of all these models.
+
+
+
+1. Bagging 
+
+	is used to reduce the error by training homogenous weak learner on different random
+	samples from the training set, in parallel
+	voting is used 
+
+	BOOTSTRAPING: - random sampling with replacement
+
+
+	
+
+
+2. Boosting
+	Gradient Boosting
+		This algorithm updates the values of the training data samples.Here,
